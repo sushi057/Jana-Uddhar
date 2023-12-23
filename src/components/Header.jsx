@@ -5,15 +5,15 @@ import location_icon from "../assets/icons/location-icon.svg";
 
 function Header() {
   return (
-    <div className="flex flex-row justify-between items-center border-b-2 text-white bg-green-600 px-32 py-2 font-sans">
+    <div className="flex flex-row justify-between items-center text-slate-50 bg-yellow-600 px-32 py-3 font-sans">
       <div className="flex flex-row">
         <div className="flex flex-row">
           <p className="font-semibold">Thursday,&nbsp;</p>
           <p>07 December 2023</p>
         </div>
-        <div className="border-l-4 mx-2"></div>
+        <div className="border-l-4 mx-3"></div>
         <div className="flex flex-row">
-          <img src={location_icon} className="max-w-4 mx-1 invert" />
+          <img src={location_icon} className="max-w-4 mr-1 invert" />
           <p>Gamcha, Budha-Nilkantha, Kathmandu, Nepal</p>
         </div>
       </div>
