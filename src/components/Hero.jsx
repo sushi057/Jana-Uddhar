@@ -4,13 +4,13 @@ function Hero() {
   return (
     <div className="h-lvh relative">
       <div
-        className="h-2/3 w-full bg-cover bg-no-repeat brightness-50"
+        className="h-3/4 w-full bg-cover bg-no-repeat brightness-50"
         style={{ backgroundImage: `url(${school_landing})` }}
       ></div>
       <div className="absolute bottom-1/2 left-0 right-0">
         <div className="text-slate-50 flex flex-col items-center justify-center h-full text-center">
           <h2 className="font-bold text-5xl mb-6">
-            Welcome to <br /> Jana Uddhar Higher Secondary School
+            Welcome to <br /> Jana Uddhar Secondary School
           </h2>
           <p className=" text-xl  w-2/3">
             Dedicated and virtuous in pursuing accomplishments, possessing
