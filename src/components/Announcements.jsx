@@ -1,5 +1,17 @@
+import Card from "./Card";
+
 function Announcements() {
-  return <div>Announcements</div>;
+  return (
+    <div>
+      <div>
+        <p>Announcements</p>
+        <p>Latest updates</p>
+      </div>
+      <div>
+        <Card />
+      </div>
+    </div>
+  );
 }
 
 export default Announcements;

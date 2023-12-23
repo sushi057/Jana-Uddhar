@@ -1,13 +1,17 @@
 import Hero from "./Hero";
 import Announcements from "./Announcements";
-import Agenda from "./Agenda";
+import About from "./About";
+import Activities from "./Activities";
 
 function Homepage() {
   return (
     <div>
       <Hero />
-      <Announcements />
-      <Agenda />
+      <About />
+      <div className="flex flex-row justify-between px-32">
+        <Announcements />
+        <Activities />
+      </div>
     </div>
   );
 }

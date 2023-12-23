@@ -3,10 +3,6 @@ import school_landing from "../assets/images/school_landing.jpg";
 function Hero() {
   return (
     <div className="h-max relative">
-      {/* <div
-        className="h-fit w-full bg-contain bg-no-repeat brightness-50"
-        style={{ backgroundImage: `url(${school_landing})` }}
-      ></div> */}
       <img src={school_landing} className="h-3/4 w-full brightness-50" />
       <div className="absolute bottom-1/4 inset-x-0">
         <div className="text-slate-50 flex flex-col items-center justify-center h-full text-center">
