@@ -1,11 +1,13 @@
 import Hero from "./Hero";
-import Header from "./Header";
+import Announcements from "./Announcements";
+import Agenda from "./Agenda";
 
 function Homepage() {
   return (
     <div>
-      <Header />
       <Hero />
+      <Announcements />
+      <Agenda />
     </div>
   );
 }

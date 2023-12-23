@@ -2,7 +2,7 @@ import school_logo from "../assets/icons/school-icon.svg";
 
 function Navbar() {
   return (
-    <div className="fixed mt-16 z-50 inset-x-0 w-full text-slate-50 flex flex-row justify-between items-center px-36">
+    <div className="w-full text-slate-50 flex flex-row justify-between items-center px-36">
       <div className="flex flex-row items-center w-1/2">
         <img
           src={school_logo}

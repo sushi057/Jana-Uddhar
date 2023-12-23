@@ -5,7 +5,7 @@ import location_icon from "../assets/icons/location-icon.svg";
 
 function Header() {
   return (
-    <div className="flex flex-row justify-between items-center text-slate-50 bg-yellow-600 px-32 py-2">
+    <div className="flex flex-row justify-between items-center text-slate-50 bg-yellow-600 px-32 py-2 mb-5">
       <div className="flex flex-row">
         <div className="flex flex-row">
           <p className="font-semibold">Thursday,&nbsp;</p>

@@ -2,12 +2,13 @@ import school_landing from "../assets/images/school_landing.jpg";
 
 function Hero() {
   return (
-    <div className="h-lvh relative">
-      <div
-        className="h-3/4 w-full bg-cover bg-no-repeat brightness-50"
+    <div className="h-max relative">
+      {/* <div
+        className="h-fit w-full bg-contain bg-no-repeat brightness-50"
         style={{ backgroundImage: `url(${school_landing})` }}
-      ></div>
-      <div className="absolute bottom-1/2 left-0 right-0">
+      ></div> */}
+      <img src={school_landing} className="h-3/4 w-full brightness-50" />
+      <div className="absolute bottom-1/4 inset-x-0">
         <div className="text-slate-50 flex flex-col items-center justify-center h-full text-center">
           <h2 className="font-bold text-5xl mb-6">
             Welcome to <br /> Jana Uddhar Secondary School
