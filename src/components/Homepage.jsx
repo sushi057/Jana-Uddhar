@@ -8,9 +8,7 @@ function Homepage() {
     <div>
       <Hero />
       <About />
-      <div className="flex flex-row justify-between px-32">
-        <Activities />
-      </div>
+      <Activities />
     </div>
   );
 }

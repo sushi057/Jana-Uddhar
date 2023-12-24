@@ -1,11 +1,11 @@
-import school_logo from "../assets/icons/school-icon.svg";
+import jana_uddhar_logo from "../assets/images/jana_uddhar_main.jpg";
 
 function Navbar() {
   return (
     <div className="flex flex-row items-center justify-between w-full px-32 text-slate-50">
       <div className="flex flex-row items-center w-1/2">
         <img
-          src={school_logo}
+          src={jana_uddhar_logo}
           className="border-4 border-yellow-500 border-solid rounded-full max-h-14"
         />
         <div className="flex flex-col pb-2 ml-4 leading-3">
@@ -18,10 +18,10 @@ function Navbar() {
           Homepage
         </a>
         <a href="/" className="px-3 py-2 rounded-md hover:bg-yellow-600">
-          News
+          Gallery
         </a>
         <a href="/" className="px-3 py-2 rounded-md hover:bg-yellow-600">
-          Gallery
+          About
         </a>
         <a href="/" className="px-3 py-2 rounded-md hover:bg-yellow-600">
           Contact

@@ -30,9 +30,9 @@ function Activities() {
     },
   ];
   return (
-    <div className="w-full">
+    <div className="w-full px-32 my-16">
       <p className="font-bold text-4xl mb-6">Activites</p>
-      <div className="flex flex-row gap-4 justify-around">
+      <div className="flex flex-row gap-4 justify-between">
         {items.map((item) => (
           <Card
             key={item.type}
