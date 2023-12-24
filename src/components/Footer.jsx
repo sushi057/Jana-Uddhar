@@ -7,12 +7,12 @@ function Footer() {
     <div className="bg-background-800 flex flex-col px-32 pt-20 text-lg text-text-100 border-t-8 rounded-t-[10%]">
       <div className="flex flex-row justify-between">
         <div className="flex flex-col">
-          <img src={jana_uddhar_logo} className="max-h-32 rounded-md mb-2" />
+          <img src={jana_uddhar_logo} className="max-h-48 rounded-md mb-2" />
           <div>
-            <p className="text-xl font-bold mb-1">
+            <p className="text-3xl font-bold mb-1">
               Shree Jana Uddhar Secondary School
             </p>
-            <p className="font-semibold">
+            <p className="font-semibold text-xl leading-9">
               Gamcha
               <br />
               Budhanilkantha
@@ -22,18 +22,18 @@ function Footer() {
           </div>
         </div>
         <div>
-          <p className="font-bold text-xl mb-4">Links</p>
+          <p className="font-bold text-3xl mb-4">Links</p>
           <div className="flex flex-col font-semibold gap-2">
-            <a href="/" className="hover:text-text-300">
+            <a href="/" className="hover:text-text-300 text-xl">
               About us
             </a>
-            <a href="/" className="hover:text-text-300">
+            <a href="/" className="hover:text-text-300 text-xl">
               Gallery
             </a>
-            <a href="/" className="hover:text-text-300">
+            <a href="/" className="hover:text-text-300 text-xl">
               Contact
             </a>{" "}
-            <a href="/" className="hover:text-text-300">
+            <a href="/" className="hover:text-text-300 text-xl">
               {" "}
               Under Collaborative School Network
             </a>
@@ -41,13 +41,13 @@ function Footer() {
         </div>
         <div className="flex flex-col justify-between">
           <div>
-            <p className="font-bold text-xl mb-4">Contact</p>
-            <p className="font-semibold">091-524664</p>
-            <p className="font-semibold">091-527252</p>
+            <p className="font-bold text-3xl mb-4">Contact</p>
+            <p className="font-semibold text-xl mt-3">091-524664</p>
+            <p className="font-semibold text-xl mt-3">091-527252</p>
           </div>
           <div>
-            <p className="font-bold text-xl mb-2">Email</p>
-            <p className="font-semibold">janauddhar@gmail.com</p>
+            <p className="font-bold text-3xl mb-2">Email</p>
+            <p className="font-semibold text-xl">janauddhar@gmail.com</p>
           </div>
           <div className="flex flex-row items-center gap-6">
             <img src={facebook_icon} className="invert h-9" />
@@ -55,7 +55,7 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div className="flex flex-row justify-between mt-14 mb-8 font-semibold">
+      <div className="flex flex-row justify-between mt-24 mb-8 text-xl font-semibold">
         <p>
           &#169; 2024, Shree Jana Uddhar Secondary School All rights reserved.
         </p>
