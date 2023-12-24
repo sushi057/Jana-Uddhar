@@ -4,7 +4,7 @@ import whatsapp_icon from "../assets/icons/whatsapp-icon.svg";
 
 function Footer() {
   return (
-    <div className="bg-yellow-600 flex flex-col px-32 pt-16 text-lg text-white">
+    <div className="bg-background-800 flex flex-col px-32 pt-20 text-lg text-text-100 border-t-8 rounded-t-[10%]">
       <div className="flex flex-row justify-between">
         <div className="flex flex-col">
           <img src={jana_uddhar_logo} className="max-h-32 rounded-md mb-2" />
@@ -24,10 +24,19 @@ function Footer() {
         <div>
           <p className="font-bold text-xl mb-4">Links</p>
           <div className="flex flex-col font-semibold gap-2">
-            <a href="/">About us</a>
-            <a href="/">Gallery</a>
-            <a href="/">Contact</a>{" "}
-            <a href="/"> Under Collaborative School Network</a>
+            <a href="/" className="hover:text-text-300">
+              About us
+            </a>
+            <a href="/" className="hover:text-text-300">
+              Gallery
+            </a>
+            <a href="/" className="hover:text-text-300">
+              Contact
+            </a>{" "}
+            <a href="/" className="hover:text-text-300">
+              {" "}
+              Under Collaborative School Network
+            </a>
           </div>
         </div>
         <div className="flex flex-col justify-between">

@@ -18,11 +18,11 @@ function App() {
   window.addEventListener("scroll", changeNavbarBackground);
 
   return (
-    <div className="relative">
+    <div className="relative bg-primary-800 text-text-100">
       <div
         className={
           navbar
-            ? "fixed z-50 inset-x-0 py-2 bg-yellow-600"
+            ? "fixed z-50 inset-x-0 py-3 bg-primary-700 transition-colors duration-300"
             : "fixed z-50 inset-x-0 py-2"
         }
       >
