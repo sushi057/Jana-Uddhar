@@ -46,7 +46,7 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div className="flex flex-row justify-between mt-14 mb-4 font-semibold">
+      <div className="flex flex-row justify-between mt-14 mb-8 font-semibold">
         <p>
           &#169; 2024, Shree Jana Uddhar Secondary School All rights reserved.
         </p>
