@@ -1,7 +1,7 @@
 import Hero from "./Hero";
-import Announcements from "./Announcements";
 import About from "./About";
 import Activities from "./Activities";
+import admission_image from "../assets/images/admissions.jpg";
 
 function Homepage() {
   return (
@@ -9,7 +9,6 @@ function Homepage() {
       <Hero />
       <About />
       <div className="flex flex-row justify-between px-32">
-        <Announcements />
         <Activities />
       </div>
     </div>

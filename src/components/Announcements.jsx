@@ -16,6 +16,13 @@ function Announcements() {
       title: "Lorem ipsum",
       info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui beatae rerum nihil expedita",
     },
+    {
+      image: quiz_image,
+      type: "Ceremony",
+      title: "Lorem ipsum",
+      info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui beatae rerum nihil expedita",
+    },
+    
   ];
   return (
     <div>
