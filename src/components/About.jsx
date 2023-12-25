@@ -4,7 +4,7 @@ function About() {
   return (
     <div>
       <div className=" px-32 pt-24 pb-16">
-        <h1 className="font-bold text-5xl mb-6 text-accent-500">
+        <h1 className="font-bold text-5xl mb-12 text-secondary-600">
           About Jana Uddhar
         </h1>
         <div className="flex flex-row justify-between text-lg leading-6">
@@ -33,7 +33,7 @@ function About() {
         </div>
         <button
           type="button"
-          className="px-3 py-2 mt-6 text-xl font-bold bg-accent-500 rounded-md hover:bg-accent-600 "
+          className="px-4 py-3 mt-6 text-xl font-bold bg-secondary-500 rounded-md"
         >
           Read More
         </button>

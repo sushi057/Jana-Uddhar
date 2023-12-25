@@ -16,25 +16,25 @@ function Navbar() {
       <div className="flex flex-row gap-8 text-lg font-semibold">
         <a
           href="/"
-          className="px-4 py-3 rounded-md hover:bg-accent-500 hover:text-text-900"
+          className="px-4 py-3 rounded-md hover:bg-secondary-500 hover:text-text-900"
         >
           Homepage
         </a>
         <a
           href="/"
-          className="px-4 py-3  rounded-md hover:bg-accent-500 hover:text-text-900"
+          className="px-4 py-3  rounded-md hover:bg-secondary-500 hover:text-text-900"
         >
           Gallery
         </a>
         <a
           href="/"
-          className="px-4 py-3  rounded-md hover:bg-accent-500 hover:text-text-900"
+          className="px-4 py-3  rounded-md hover:bg-secondary-500 hover:text-text-900"
         >
           About
         </a>
         <a
           href="/"
-          className="px-4 py-3  rounded-md hover:bg-accent-500 hover:text-text-900"
+          className="px-4 py-3  rounded-md hover:bg-secondary-500 hover:text-text-900"
         >
           Contact
         </a>

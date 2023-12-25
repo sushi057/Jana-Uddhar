@@ -29,8 +29,8 @@ function Activities() {
     },
   ];
   return (
-    <div className="w-full px-32 my-24">
-      <p className="font-bold text-4xl mb-6 text-accent-500">Activites</p>
+    <div className="w-full px-32 my-24 ">
+      <p className="font-bold text-5xl text-secondary-600 mb-12">Activites</p>
       <div className="flex flex-row gap-4 justify-between">
         {items.map((item) => (
           <Card

@@ -7,7 +7,7 @@ function Homepage() {
     <div>
       <Hero />
       <About />
-      <hr className="h-1 mx-32 mt-8 bg-text-50 border-0 " />
+      <hr className="h-2 mx-32 mt-8 bg-secondary-700 rounded-md" />
       <Activities />
     </div>
   );
