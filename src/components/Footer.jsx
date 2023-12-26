@@ -24,16 +24,16 @@ function Footer() {
         <div>
           <p className="font-bold text-3xl mb-4">Links</p>
           <div className="flex flex-col font-semibold gap-2">
-            <a href="/" className="hover:text-text-300 text-xl">
+            <a href="/" className="hover:underline underline-offset-4 text-xl">
               About us
             </a>
-            <a href="/" className="hover:text-text-300 text-xl">
+            <a href="/" className="hover:underline underline-offset-4 text-xl">
               Gallery
             </a>
-            <a href="/" className="hover:text-text-300 text-xl">
+            <a href="/" className="hover:underline underline-offset-4 text-xl">
               Contact
             </a>{" "}
-            <a href="/" className="hover:text-text-300 text-xl">
+            <a href="/" className="hover:underline underline-offset-4 text-xl">
               {" "}
               Under Collaborative School Network
             </a>

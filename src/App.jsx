@@ -1,7 +1,13 @@
-import Homepage from "./components/Homepage";
+import { useState } from "react";
+import { Route, Routes } from "react-router-dom";
+
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import { useState } from "react";
+
+import Homepage from "./pages/Homepage";
+import Gallery from "./pages/Gallery";
+import Contact from "./pages/contact";
+import About from "./pages/About";
 
 function App() {
   const [navbar, setNavbar] = useState(false);
@@ -28,7 +34,12 @@ function App() {
       >
         <Navbar />
       </div>
-      <Homepage />
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+        <Route path="/gallery" element={<Gallery />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<About />} />
+      </Routes>
       <Footer />
     </div>
   );

@@ -1,4 +1,5 @@
 import jana_uddhar_logo from "../assets/images/jana_uddhar_main.jpg";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
@@ -10,34 +11,34 @@ function Navbar() {
         />
         <div className="flex flex-col pb-2 ml-4 leading-3">
           <p className="text-xl font-bold uppercase">Jana Uddhar</p>
-          <p>Budhanilkantha</p>
+          <p className="font-semibold">Budhanilkantha</p>
         </div>
       </div>
-      <div className="flex flex-row gap-8 text-lg font-semibold">
-        <a
-          href="/"
-          className="px-4 py-3 rounded-md hover:bg-secondary-500 hover:text-text-900"
+      <div className="flex flex-row gap-8 text-lg font-bold">
+        <Link
+          to="/"
+          className="px-4 py-3 rounded-md hover:bg-secondary-500 hover:text-text-900 transition-colors duration-2 00"
         >
           Homepage
-        </a>
-        <a
-          href="/"
-          className="px-4 py-3  rounded-md hover:bg-secondary-500 hover:text-text-900"
+        </Link>
+        <Link
+          to="/gallery"
+          className="px-4 py-3  rounded-md hover:bg-secondary-500 hover:text-text-900 transition-colors duration-2 00"
         >
           Gallery
-        </a>
-        <a
-          href="/"
-          className="px-4 py-3  rounded-md hover:bg-secondary-500 hover:text-text-900"
+        </Link>
+        <Link
+          to="/about"
+          className="px-4 py-3  rounded-md hover:bg-secondary-500 hover:text-text-900 transition-colors duration-2 00"
         >
           About
-        </a>
-        <a
-          href="/"
-          className="px-4 py-3  rounded-md hover:bg-secondary-500 hover:text-text-900"
+        </Link>
+        <Link
+          to="/contact"
+          className="px-4 py-3  rounded-md hover:bg-secondary-500 hover:text-text-900 transition-colors duration-2 00"
         >
           Contact
-        </a>
+        </Link>
       </div>
     </div>
   );

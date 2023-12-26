@@ -1,6 +1,6 @@
-import Hero from "./Hero";
-import About from "./About";
-import Activities from "./Activities";
+import Hero from "../components/Hero";
+import About from "../components/About";
+import Activities from "../components/Activities";
 
 function Homepage() {
   return (
