@@ -1,4 +1,4 @@
-import jana_uddhar_logo from "../assets/images/jana_uddhar_main.jpg";
+import jana_uddhar_logo from "../assets/images/main/jana_uddhar_main.jpg";
 import facebook_icon from "../assets/icons/facebook-icon.svg";
 import whatsapp_icon from "../assets/icons/whatsapp-icon.svg";
 

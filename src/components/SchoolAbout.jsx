@@ -1,13 +1,14 @@
-import about_school from "../assets/images/about_school.jpg";
+import { Link } from "react-router-dom";
+import about_school from "../assets/images/gallery/gallery_4.jpg";
 
-function About() {
+function SchoolAbout() {
   return (
     <div>
       <div className=" px-32 pt-24 pb-16">
         <h1 className="font-bold text-5xl mb-12 text-secondary-600">
           About Jana Uddhar
         </h1>
-        <div className="flex flex-row justify-between text-lg leading-6">
+        <div className="flex flex-row justify-between text-lg ">
           <p className="w-1/2">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam sunt
             quaerat unde, facilis dignissimos commodi numquam cumque,
@@ -31,18 +32,19 @@ function About() {
           </p>
           <img
             src={about_school}
-            className="border-8 border-secondary-500 rounded-md max-h-96 "
+            className="border-8 border-secondary-500 rounded-md"
           />
         </div>
-        <button
+        <Link
+          to="/about"
           type="button"
           className="px-4 py-3 mt-6 text-xl font-bold bg-secondary-500 hover:drop-shadow-2xl transition-all duration-300 rounded-md"
         >
           Read More
-        </button>
+        </Link>
       </div>
     </div>
   );
 }
 
-export default About;
+export default SchoolAbout;

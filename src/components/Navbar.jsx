@@ -1,4 +1,4 @@
-import jana_uddhar_logo from "../assets/images/jana_uddhar_main.jpg";
+import jana_uddhar_logo from "../assets/images/main/jana_uddhar_main.jpg";
 import { Link } from "react-router-dom";
 
 function Navbar() {

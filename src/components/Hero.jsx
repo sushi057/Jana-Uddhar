@@ -1,4 +1,4 @@
-import school_landing from "../assets/images/school_landing.jpg";
+import school_landing from "../assets/images/main/school_landing.jpg";
 
 function Hero() {
   return (

@@ -70,6 +70,9 @@ export default {
           950: "#011319",
         },
       },
+      gridTemplateColumns: {
+        fluid: "repeat(auto-fit, minmax(20rem, 1fr))",
+      },
     },
   },
   plugins: [],

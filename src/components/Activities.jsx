@@ -1,5 +1,5 @@
 import Card from "./Card";
-import quiz_image from "../assets/images/quiz_image.jpg";
+import quiz_image from "../assets/images/main/quiz_image.jpg";
 
 function Activities() {
   const items = [
