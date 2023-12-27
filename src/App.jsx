@@ -34,8 +34,8 @@ function App() {
       <div
         className={
           navbar || !isHomePage
-            ? "fixed z-50 inset-x-0 py-3 bg-primary-800 transition-colors duration-300"
-            : "fixed z-50 inset-x-0 py-3"
+            ? "fixed z-50 inset-x-0 py-3 bg-primary-800 transition-colors duration-500"
+            : "fixed z-50 inset-x-0 py-3 transition-colors duration-500"
         }
       >
         <Navbar />

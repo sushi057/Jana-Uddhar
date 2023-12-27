@@ -17,25 +17,25 @@ function Navbar() {
       <div className="flex flex-row gap-8 text-lg font-bold">
         <Link
           to="/"
-          className="px-4 py-3 rounded-md hover:bg-secondary-500 hover:text-text-900 transition-colors duration-2 00"
+          className="px-4 py-3 rounded-md hover:bg-secondary-500 hover:text-text-900 transition-colors duration-300"
         >
           Homepage
         </Link>
         <Link
           to="/gallery"
-          className="px-4 py-3  rounded-md hover:bg-secondary-500 hover:text-text-900 transition-colors duration-2 00"
+          className="px-4 py-3  rounded-md hover:bg-secondary-500 hover:text-text-900 transition-colors duration-300"
         >
           Gallery
         </Link>
         <Link
           to="/about"
-          className="px-4 py-3  rounded-md hover:bg-secondary-500 hover:text-text-900 transition-colors duration-2 00"
+          className="px-4 py-3  rounded-md hover:bg-secondary-500 hover:text-text-900 transition-colors duration-300"
         >
           About
         </Link>
         <Link
           to="/contact"
-          className="px-4 py-3  rounded-md hover:bg-secondary-500 hover:text-text-900 transition-colors duration-2 00"
+          className="px-4 py-3  rounded-md hover:bg-secondary-500 hover:text-text-900 transition-colors duration-300"
         >
           Contact
         </Link>

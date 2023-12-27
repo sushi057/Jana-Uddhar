@@ -38,7 +38,7 @@ function SchoolAbout() {
         <Link
           to="/about"
           type="button"
-          className="px-4 py-3 mt-6 text-xl font-bold bg-secondary-500 hover:drop-shadow-2xl transition-all duration-300 rounded-md"
+          className="px-4 py-3 mt-6 text-xl font-bold bg-secondary-500 hover:drop-shadow-2xl hover:-translate-y-2 transition-all duration-500 rounded-md"
         >
           Read More
         </Link>
