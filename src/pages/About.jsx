@@ -7,7 +7,7 @@ function About() {
       <h1 className="text-7xl font-bold mt-12 text-secondary-600">
         Jana Uddhar Secondary School
       </h1>
-      <div className="text-xl font-semibold py-12 flex flex-col gap-8">
+      <div className="text-xl font-semibold py-12 flex flex-col items-center gap-8">
         <img src={about_page} className="rounded-md" />
         <p className="px-16">
           Jana Uddhar Secondary School, situated in Chunnikhel, Chapali on the
@@ -51,7 +51,11 @@ function About() {
           achieve a 95% attendance rate and empower 95% of Grades 6 to 10
           students with essential computer skills. Many of these 400 students
           are from low-income backgrounds or orphaned.
-          <img src={school_building} className="pt-8 rounded-xl" />
+          <img
+            src={school_building}
+            width={1024}
+            className="pt-8 rounded-xl mx-auto"
+          />
         </p>
         <div className="flex flex-col items-center">
           <p className="px-16 py-8">
