@@ -18,24 +18,36 @@ function Navbar() {
         <Link
           to="/"
           className="px-4 py-3 rounded-md hover:bg-secondary-500 hover:text-text-900 transition-colors duration-300"
+          onClick={() => {
+            window.scroll(0, 0);
+          }}
         >
           Homepage
         </Link>
         <Link
           to="/gallery"
           className="px-4 py-3  rounded-md hover:bg-secondary-500 hover:text-text-900 transition-colors duration-300"
+          onClick={() => {
+            window.scroll(0, 0);
+          }}
         >
           Gallery
         </Link>
         <Link
           to="/about"
           className="px-4 py-3  rounded-md hover:bg-secondary-500 hover:text-text-900 transition-colors duration-300"
+          onClick={() => {
+            window.scroll(0, 0);
+          }}
         >
           About
         </Link>
         <Link
           to="/contact"
           className="px-4 py-3  rounded-md hover:bg-secondary-500 hover:text-text-900 transition-colors duration-300"
+          onClick={() => {
+            window.scroll(0, 0);
+          }}
         >
           Contact
         </Link>

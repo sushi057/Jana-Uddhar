@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import jana_uddhar_logo from "../assets/images/main/jana_uddhar_main.jpg";
 import facebook_icon from "../assets/icons/facebook-icon.svg";
 import whatsapp_icon from "../assets/icons/whatsapp-icon.svg";
@@ -24,15 +25,33 @@ function Footer() {
         <div>
           <p className="font-bold text-3xl mb-4">Links</p>
           <div className="flex flex-col font-semibold gap-2">
-            <a href="/" className="hover:underline underline-offset-4 text-xl">
+            <Link
+              to="/about"
+              className="hover:underline underline-offset-4 text-xl"
+              onClick={() => {
+                window.scroll(0, 0);
+              }}
+            >
               About us
-            </a>
-            <a href="/" className="hover:underline underline-offset-4 text-xl">
+            </Link>
+            <Link
+              to="/gallery"
+              className="hover:underline underline-offset-4 text-xl"
+              onClick={() => {
+                window.scroll(0, 0);
+              }}
+            >
               Gallery
-            </a>
-            <a href="/" className="hover:underline underline-offset-4 text-xl">
+            </Link>
+            <Link
+              to="/contact"
+              className="hover:underline underline-offset-4 text-xl"
+              onClick={() => {
+                window.scroll(0, 0);
+              }}
+            >
               Contact
-            </a>{" "}
+            </Link>{" "}
             <a href="/" className="hover:underline underline-offset-4 text-xl">
               {" "}
               Under Collaborative School Network

@@ -33,6 +33,9 @@ function SchoolAbout() {
           to="/about"
           type="button"
           className="px-4 py-3 mt-6 w-fit text-xl font-bold bg-secondary-500 hover:drop-shadow-2xl hover:-translate-y-2 transition-all duration-500 rounded-md"
+          onClick={() => {
+            window.scroll(0, 0);
+          }}
         >
           Read More
         </Link>
