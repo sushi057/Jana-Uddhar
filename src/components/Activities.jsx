@@ -11,19 +11,19 @@ function Activities() {
     },
     {
       image: quiz_image,
-      type: "Ceremony",
+      type: "Ceremoasdny",
       title: "Lorem ipsum",
       info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui beatae rerum nihil expedita",
     },
     {
       image: quiz_image,
-      type: "Ceremony",
+      type: "Ceremasony",
       title: "Lorem ipsum",
       info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui beatae rerum nihil expedita",
     },
     {
       image: quiz_image,
-      type: "Ceremony",
+      type: "Cereasmony",
       title: "Lorem ipsum",
       info: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui beatae rerum nihil expedita",
     },
@@ -31,7 +31,7 @@ function Activities() {
   return (
     <div className="w-full px-32 my-24 ">
       <p className="font-bold text-5xl text-secondary-600 mb-12">Activites</p>
-      <div className="flex flex-row gap-4 justify-between">
+      <div className="grid gap-4 justify-between">
         {items.map((item) => (
           <Card
             key={item.type}

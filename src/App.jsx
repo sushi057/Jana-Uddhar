@@ -30,12 +30,12 @@ function App() {
   window.addEventListener("scroll", changeNavbarBackground);
 
   return (
-    <div className="static bg-background-100 text-text-900">
+    <div className="px-16 flex flex-col bg-background-100 text-text-900">
       <div
         className={
           navbar || !isHomePage
-            ? "fixed z-50 inset-x-0 py-3 bg-primary-800 transition-colors duration-500"
-            : "fixed z-50 inset-x-0 py-3 transition-colors duration-500"
+            ? "mx-16 lg:mx-0 lg:rounded-none rounded-xl fixed z-50 inset-x-0 py-3 bg-primary-800 transition-colors duration-500"
+            : "mx-16 lg:mx-0 lg:rounded-none rounded-xl fixed z-50 inset-x-0 py-3 bg-primary-800 lg:bg-none transition-colors duration-500"
         }
       >
         <Navbar />

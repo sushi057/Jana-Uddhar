@@ -26,7 +26,7 @@ function SchoolAbout() {
           </p>
           <img
             src={about_school}
-            className="border-8 border-secondary-500 rounded-md max-h-96"
+            className="border-8 border-secondary-500 rounded-md max-w-64"
           />
         </div>
         <Link
