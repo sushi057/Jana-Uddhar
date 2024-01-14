@@ -10,19 +10,22 @@ function SchoolAbout() {
         </h1>
         <div className="flex flex-row gap-6 justify-between text-lg max-h-96 font-semibold">
           <p className="w-1/2">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam sunt
-            quaerat unde, facilis dignissimos commodi numquam cumque,
-            voluptatibus consequatur sit suscipit quas doloribus fuga magnam ad
-            iste repellendus? Nisi, perferendis.Lorem ipsum dolor sit amet
-            consectetur, adipisicing elit. Libero blanditiis culpa, nesciunt
-            dicta, atque incidunt quae nemo?Lorem, ipsum dolor sit amet
-            consectetur adipisicing elit.
+            ana Uddhar Secondary School, situated in Chunnikhel, Chapali on the
+            outskirts of the Kathmandu valley, is a remarkable public school
+            managed by CSN. Originally established in 2015 with just over 100
+            students and a less-than-favorable reputation, the school has
+            undergone a remarkable transformation under the leadership of
+            Trishna Kandel and Richa Shahi, who serve as School Leaders. Today,
+            Jana Uddhar Secondary School boasts a student population exceeding
+            350, earning it recognition as the best public school in the
+            municipality in 2019.
             <br />
             <br />
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates,
-            consequuntur neque voluptas commodi nobis nostrum sint esse quos
-            incidunt consequuntur neque voluptas commodi nobis nostrum sint esse
-            quos incidunt fugit voluptatum.
+            Our aim is not just to improve a few schools, but to transform the
+            public education sector in Nepal, by proving that public schools can
+            be successful with the right support. We are outraged by the chronic
+            failure of public education in Nepal, and are driven by a simple
+            motto: We put students first.
           </p>
           <img
             src={about_school}
